@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="link rel="preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali&family=Prompt:wght@300&display=swap" rel="stylesheet">
+    <title>Simple CSS Page</title>
+
+</head>
+    <style>
+        body{
+            font-family: 'Prompt', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav{
+            background-color: #c2dcea;
+            color: black;
+            padding: 10px 50px 10px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            right: 0;
+            left: 0;       
+        }
+
+        .logo{
+            margin-left: 20px;
+        }
+
+        nav a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 14px 16px;
+            display: inline-block;
+        }
+
+        #content{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 90vh;
+        }
+        footer{
+            background-color: #c2dcea;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        a.btn{
+            height: 40px;
+            width: 150px;
+            margin-top: 15px;
+            border-radius: 30px;
+            background-color: #f34a4a;
+            color: black;
+            border: solid 1px #3d3838;
+
+            padding-top: 18px;
+            text-align: center;
+            text-decoration: none;
+        }
+        a.btn:hover{
+            background-color: white;
+            color: black;
+        }
+    </style>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <!-- <img src="" alt="LOGO" width="50"> -->
+            LOGO
+        </div>
+        <div class="menu">
+            <a href="home">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Service</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <main id="content">
+        <h1>วิทยาลัยอาชีวศึกษานครปฐม</h1>
+        <p>ในวิทยาลัยนี้หนูสวยที่สุดค่ะ</p>
+        <a href="#" class="btn">Start Now</a>
+    </main>
+
+    <footer>
+        &copy; Sujittra Jongtaweesuk
+    </footer>
+
+</body>
+
+</html>
